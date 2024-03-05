@@ -14,7 +14,7 @@
 
 /*globals jQuery,document */
 
-(function ($) {
+jQuery(function() {
     // workaround for Opera browser
     if (navigator.userAgent.match(/opera/i)) {
         $(document).keypress(function (e) {
